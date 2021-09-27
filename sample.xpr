@@ -21,6 +21,24 @@
                         <scenarioAssociation-array>
                             <scenarioAssociation>
                                 <field name="url">
+                                    <String>dita/flowers/flowers.ditamap</String>
+                                </field>
+                                <field name="scenarioIds">
+                                    <list>
+                                        <String>Flowers sample to WebHelp Responsive (Flowers template)</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioTypes">
+                                    <list>
+                                        <String>DITAMAP</String>
+                                    </list>
+                                </field>
+                                <field name="scenarioStorageLocations">
+                                    <list/>
+                                </field>
+                            </scenarioAssociation>
+                            <scenarioAssociation>
+                                <field name="url">
                                     <String>dita/garage/garage.ditamap</String>
                                 </field>
                                 <field name="scenarioIds">
@@ -34,9 +52,7 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
+                                    <list/>
                                 </field>
                             </scenarioAssociation>
                             <scenarioAssociation>
@@ -54,9 +70,7 @@
                                     </list>
                                 </field>
                                 <field name="scenarioStorageLocations">
-                                    <list>
-                                        <Byte>2</Byte>
-                                    </list>
+                                    <list/>
                                 </field>
                             </scenarioAssociation>
                         </scenarioAssociation-array>
@@ -823,7 +837,6 @@
         <folder path="xhtml/"/>
         <folder path="xproc/"/>
         <folder path="xspec/"/>
-        <folder path="../../../../TEST/Chris/13281210524100351/oxygen_wrong_href_shown/"/>
         <file name="personal-schema.xml"/>
         <file name="personal.css"/>
         <file name="personal.dtd"/>
