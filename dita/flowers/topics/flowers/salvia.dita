@@ -53,7 +53,7 @@
       that <b>Salvia</b> is not monophyletic.</p>
   </body>
   <related-links>
-    <link href="chrysanthemum.dita#chrysanthemum"/>
+    <link keyref="chrysanthemum"/>
   </related-links>
 </topic>
 

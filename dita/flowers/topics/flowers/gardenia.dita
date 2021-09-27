@@ -31,6 +31,6 @@
             clothes and food (including the Korean mung bean jelly called hwangpomuk).</p>
     </body>
     <related-links>
-        <link href="lilac.dita#lilac"/>
+        <link keyref="lilac"/>
     </related-links>
 </topic>
