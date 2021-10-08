@@ -542,6 +542,10 @@
                             </ditaScenario>
                         </scenario-array>
                     </entry>
+                    <entry>
+                        <String>validation.scenarios</String>
+                        <validationScenario-array/>
+                    </entry>
                 </serializableOrderedMap>
             </serialized>
         </options>
@@ -692,18 +696,6 @@
             </folder>
         </folder>
         <folder name="json">
-            <folder name="author">
-                <file name="json/author/residentCardForm.json"/>
-                <file name="json/author/travel-guide.json"/>
-            </folder>
-            <folder name="openapi">
-                <file name="json/openapi/petstore.json"/>
-            </folder>
-            <folder name="schematron">
-                <file name="json/schematron/json-schematron.xpr"/>
-                <file name="json/schematron/library.json"/>
-                <file name="json/schematron/library.sch"/>
-            </folder>
             <folder name="transform">
                 <file name="json/transform/json-to-xml.xsl"/>
                 <file name="json/transform/personal-jsonDoc.xquery"/>
@@ -726,57 +718,67 @@
             <file name="relaxng/personal.xml"/>
         </folder>
         <folder name="schematron">
-            <folder name="attributes">
-                <file name="schematron/attributes/followed-bad.xml"/>
-                <file name="schematron/attributes/followed-good.xml"/>
-                <file name="schematron/attributes/followed.dtd"/>
-                <file name="schematron/attributes/followed.sch"/>
-                <file name="schematron/attributes/length-bad.xml"/>
-                <file name="schematron/attributes/length-bad1.xml"/>
-                <file name="schematron/attributes/length-bad2.xml"/>
-                <file name="schematron/attributes/length-good.xml"/>
-                <file name="schematron/attributes/length.dtd"/>
-                <file name="schematron/attributes/length.sch"/>
-                <file name="schematron/attributes/name-bad.xml"/>
-                <file name="schematron/attributes/name.dtd"/>
-                <file name="schematron/attributes/name.sch"/>
-                <file name="schematron/attributes/present-bad.xml"/>
-                <file name="schematron/attributes/present.dtd"/>
-                <file name="schematron/attributes/present.sch"/>
-                <file name="schematron/attributes/required-bad1.xml"/>
-                <file name="schematron/attributes/required-bad2.xml"/>
-                <file name="schematron/attributes/required-good.xml"/>
-                <file name="schematron/attributes/required.dtd"/>
-                <file name="schematron/attributes/required.sch"/>
+            <folder name="1.5">
+                <folder name="attributes">
+                    <file name="schematron/1.5/attributes/followed-bad.xml"/>
+                    <file name="schematron/1.5/attributes/followed-good.xml"/>
+                    <file name="schematron/1.5/attributes/followed.dtd"/>
+                    <file name="schematron/1.5/attributes/followed.sch"/>
+                    <file name="schematron/1.5/attributes/length-bad.xml"/>
+                    <file name="schematron/1.5/attributes/length-bad1.xml"/>
+                    <file name="schematron/1.5/attributes/length-bad2.xml"/>
+                    <file name="schematron/1.5/attributes/length-good.xml"/>
+                    <file name="schematron/1.5/attributes/length.dtd"/>
+                    <file name="schematron/1.5/attributes/length.sch"/>
+                    <file name="schematron/1.5/attributes/name-bad.xml"/>
+                    <file name="schematron/1.5/attributes/name.dtd"/>
+                    <file name="schematron/1.5/attributes/name.sch"/>
+                    <file name="schematron/1.5/attributes/present-bad.xml"/>
+                    <file name="schematron/1.5/attributes/present.dtd"/>
+                    <file name="schematron/1.5/attributes/present.sch"/>
+                    <file name="schematron/1.5/attributes/required-bad1.xml"/>
+                    <file name="schematron/1.5/attributes/required-bad2.xml"/>
+                    <file name="schematron/1.5/attributes/required-good.xml"/>
+                    <file name="schematron/1.5/attributes/required.dtd"/>
+                    <file name="schematron/1.5/attributes/required.sch"/>
+                </folder>
+                <folder name="author">
+                    <file name="schematron/1.5/author/author.sch"/>
+                    <file name="schematron/1.5/author/source1.xml"/>
+                    <file name="schematron/1.5/author/source2.xml"/>
+                </folder>
+                <folder name="paragraph">
+                    <file name="schematron/1.5/paragraph/paragraph.sch"/>
+                    <file name="schematron/1.5/paragraph/source1.xml"/>
+                    <file name="schematron/1.5/paragraph/source2.xml"/>
+                </folder>
+                <folder name="percent">
+                    <file name="schematron/1.5/percent/percent-bad1.xml"/>
+                    <file name="schematron/1.5/percent/percent-bad2.xml"/>
+                    <file name="schematron/1.5/percent/percent-good.xml"/>
+                    <file name="schematron/1.5/percent/percent.dtd"/>
+                    <file name="schematron/1.5/percent/percent.sch"/>
+                </folder>
+                <folder name="po">
+                    <file name="schematron/1.5/po/po-bad.xml"/>
+                    <file name="schematron/1.5/po/po-schema.sch"/>
+                    <file name="schematron/1.5/po/po.xml"/>
+                    <file name="schematron/1.5/po/po.xsd"/>
+                </folder>
+                <folder name="tournament">
+                    <file name="schematron/1.5/tournament/tournament-schema.sch"/>
+                    <file name="schematron/1.5/tournament/Tournament.rng"/>
+                    <file name="schematron/1.5/tournament/Tournament.xml"/>
+                    <file name="schematron/1.5/tournament/Tournament.xsd"/>
+                </folder>
             </folder>
-            <folder name="author">
-                <file name="schematron/author/author.sch"/>
-                <file name="schematron/author/source1.xml"/>
-                <file name="schematron/author/source2.xml"/>
-            </folder>
-            <folder name="paragraph">
-                <file name="schematron/paragraph/paragraph.sch"/>
-                <file name="schematron/paragraph/source1.xml"/>
-                <file name="schematron/paragraph/source2.xml"/>
-            </folder>
-            <folder name="percent">
-                <file name="schematron/percent/percent-bad1.xml"/>
-                <file name="schematron/percent/percent-bad2.xml"/>
-                <file name="schematron/percent/percent-good.xml"/>
-                <file name="schematron/percent/percent.dtd"/>
-                <file name="schematron/percent/percent.sch"/>
-            </folder>
-            <folder name="po">
-                <file name="schematron/po/po-bad.xml"/>
-                <file name="schematron/po/po-schema.sch"/>
-                <file name="schematron/po/po.xml"/>
-                <file name="schematron/po/po.xsd"/>
-            </folder>
-            <folder name="tournament">
-                <file name="schematron/tournament/tournament-schema.sch"/>
-                <file name="schematron/tournament/Tournament.rng"/>
-                <file name="schematron/tournament/Tournament.xml"/>
-                <file name="schematron/tournament/Tournament.xsd"/>
+            <folder name="iso">
+                <folder name="tournament">
+                    <file name="schematron/iso/tournament/tournament-schema.sch"/>
+                    <file name="schematron/iso/tournament/Tournament.rng"/>
+                    <file name="schematron/iso/tournament/Tournament.xml"/>
+                    <file name="schematron/iso/tournament/Tournament.xsd"/>
+                </folder>
             </folder>
         </folder>
         <folder name="svg">
@@ -821,14 +823,9 @@
                 <file name="xquery/Update/replace-products.xquery"/>
             </folder>
         </folder>
-        <folder name="yaml">
-            <file name="yaml/personal-schema.yaml"/>
-            <file name="yaml/personal.yaml"/>
-        </folder>
         <folder path="dita/"/>
         <folder path="docbook/"/>
         <folder path="form-controls/"/>
-        <folder path="html/"/>
         <folder path="markdown/"/>
         <folder path="ooxml/"/>
         <folder path="quick-fixes/"/>
